@@ -1,0 +1,268 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClasesDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClasesDAL\bin\Debug\ClasesDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrador.Master.cs">
+      <DependentUpon>administrador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrador.Master.designer.cs">
+      <DependentUpon>administrador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\eliminarUsuario.aspx.cs">
+      <DependentUpon>eliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\eliminarUsuario.aspx.designer.cs">
+      <DependentUpon>eliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\inicioAdm.aspx.cs">
+      <DependentUpon>inicioAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\inicioAdm.aspx.designer.cs">
+      <DependentUpon>inicioAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\listarProducto.aspx.cs">
+      <DependentUpon>listarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\listarProducto.aspx.designer.cs">
+      <DependentUpon>listarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\listarUsuarios.aspx.cs">
+      <DependentUpon>listarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\listarUsuarios.aspx.designer.cs">
+      <DependentUpon>listarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\listaVentas.aspx.cs">
+      <DependentUpon>listaVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\listaVentas.aspx.designer.cs">
+      <DependentUpon>listaVentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\modificarUsuario.aspx.cs">
+      <DependentUpon>modificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\modificarUsuario.aspx.designer.cs">
+      <DependentUpon>modificarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasAdmin\nuevoUsuario.aspx.cs">
+      <DependentUpon>nuevoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasAdmin\nuevoUsuario.aspx.designer.cs">
+      <DependentUpon>nuevoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasPublico\descarga.aspx.cs">
+      <DependentUpon>descarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasPublico\descarga.aspx.designer.cs">
+      <DependentUpon>descarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasPublico\inicioPublic.aspx.cs">
+      <DependentUpon>inicioPublic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasPublico\inicioPublic.aspx.designer.cs">
+      <DependentUpon>inicioPublic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasPublico\logueoUsuario.aspx.cs">
+      <DependentUpon>logueoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasPublico\logueoUsuario.aspx.designer.cs">
+      <DependentUpon>logueoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasPublico\listaproducto.aspx.cs">
+      <DependentUpon>listaproducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasPublico\listaproducto.aspx.designer.cs">
+      <DependentUpon>listaproducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasPublico\registrarVenta.aspx.cs">
+      <DependentUpon>registrarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasPublico\registrarVenta.aspx.designer.cs">
+      <DependentUpon>registrarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasUsuarios\inicioUsuario.aspx.cs">
+      <DependentUpon>inicioUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasUsuarios\inicioUsuario.aspx.designer.cs">
+      <DependentUpon>inicioUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasUsuarios\modificarProducto.aspx.cs">
+      <DependentUpon>modificarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasUsuarios\modificarProducto.aspx.designer.cs">
+      <DependentUpon>modificarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginasUsuarios\nuevoProducto.aspx.cs">
+      <DependentUpon>nuevoProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginasUsuarios\nuevoProducto.aspx.designer.cs">
+      <DependentUpon>nuevoProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proyecto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proyecto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="publico.Master.cs">
+      <DependentUpon>publico.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publico.Master.designer.cs">
+      <DependentUpon>publico.Master</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios.Master.cs">
+      <DependentUpon>usuarios.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarios.Master.designer.cs">
+      <DependentUpon>usuarios.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="paginasPublico\descarga.aspx" />
+    <Content Include="paginasPublico\logueoUsuario.aspx" />
+    <Content Include="paginasPublico\listaproducto.aspx" />
+    <Content Include="publico.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrador.Master" />
+    <None Include="proyecto.xsc">
+      <DependentUpon>proyecto.xsd</DependentUpon>
+    </None>
+    <None Include="proyecto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proyecto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="proyecto.xss">
+      <DependentUpon>proyecto.xsd</DependentUpon>
+    </None>
+    <Content Include="paginasAdmin\eliminarUsuario.aspx" />
+    <Content Include="paginasAdmin\inicioAdm.aspx" />
+    <Content Include="paginasAdmin\listarProducto.aspx" />
+    <Content Include="paginasAdmin\listarUsuarios.aspx" />
+    <Content Include="paginasAdmin\listaVentas.aspx" />
+    <Content Include="paginasAdmin\modificarUsuario.aspx" />
+    <Content Include="paginasAdmin\nuevoUsuario.aspx" />
+    <Content Include="paginasPublico\imag\Amortiguadores.png" />
+    <Content Include="paginasPublico\imag\anillas.png" />
+    <Content Include="paginasPublico\imag\bomba gasolina.png" />
+    <Content Include="paginasPublico\imag\bujia.png" />
+    <Content Include="paginasPublico\imag\cable de bujias.png" />
+    <Content Include="paginasPublico\imag\clutch_disc.png" />
+    <Content Include="paginasPublico\imag\Cruceta.png" />
+    <Content Include="paginasPublico\imag\empaquetadura.png" />
+    <Content Include="paginasPublico\imag\piston.png" />
+    <Content Include="paginasPublico\imag\rodamiento.png" />
+    <Content Include="paginasPublico\imag\timing_belt_tensioners.png" />
+    <Content Include="paginasPublico\inicioPublic.aspx" />
+    <Content Include="paginasPublico\registrarVenta.aspx" />
+    <Content Include="paginasUsuarios\inicioUsuario.aspx" />
+    <Content Include="paginasUsuarios\modificarProducto.aspx" />
+    <Content Include="paginasUsuarios\nuevoProducto.aspx" />
+    <Content Include="usuarios.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19874</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="administrador.master.cs" Inherits="WebApplication.Escuela.Presentation.administrador" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 140px;
+            height: 152px;
+        }
+        .style2
+        {
+            height: 152px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 316px">
+        <table style="width:100%;">
+            <tr>
+                <td bgcolor="Blue" colspan="2" valign="top">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#FFCC00" class="style1" valign="top">
+                    &nbsp;
+                    <asp:Menu ID="Menu1" runat="server" Height="98px">
+                        <Items>
+                            <asp:MenuItem Text="USUARIO" Value="USUARIO">
+                                <asp:MenuItem Text="NUEVO USUARIO" Value="NUEVO USUARIO" 
+                                    NavigateUrl="~/paginasAdmin/nuevoUsuario.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="MODIFICAR USUARIO" Value="MODIFICAR USUARIO" 
+                                    NavigateUrl="~/paginasAdmin/modificarUsuario.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ELIMINAR USUARIO" Value="ELIMINAR USUARIO" 
+                                    NavigateUrl="~/paginasAdmin/eliminarUsuario.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="LISTAR USUARIOS" Value="LISTAR USUARIOS" 
+                                    NavigateUrl="~/paginasAdmin/listarUsuarios.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/paginasAdmin/listaVentas.aspx" Text="VENTAS" 
+                                Value="VENTAS"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="style2" valign="top" bgcolor="Black">
+                    <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+        <br />
+    </div>
+    </form>
+</body>
+</html>

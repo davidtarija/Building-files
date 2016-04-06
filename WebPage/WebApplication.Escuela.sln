@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Escuela.Presentation", "WebApplication1\WebApplication.Escuela.Presentation.csproj", "{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesDAL", "ClasesDAL\ClasesDAL.csproj", "{4643D1C1-2C0A-4ED7-8CCC-61C1447032E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesBSS", "ClasesBSS\ClasesBSS.csproj", "{5CF2D0CF-E279-4A94-A383-9C3757B6B890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED8663B-17E6-4AC3-A06C-AF261AC7F72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4643D1C1-2C0A-4ED7-8CCC-61C1447032E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4643D1C1-2C0A-4ED7-8CCC-61C1447032E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4643D1C1-2C0A-4ED7-8CCC-61C1447032E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4643D1C1-2C0A-4ED7-8CCC-61C1447032E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF2D0CF-E279-4A94-A383-9C3757B6B890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF2D0CF-E279-4A94-A383-9C3757B6B890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF2D0CF-E279-4A94-A383-9C3757B6B890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF2D0CF-E279-4A94-A383-9C3757B6B890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

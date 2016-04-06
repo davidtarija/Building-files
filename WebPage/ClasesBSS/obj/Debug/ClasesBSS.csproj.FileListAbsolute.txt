@@ -1,0 +1,16 @@
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\bin\Debug\ClasesBSS.dll
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\bin\Debug\ClasesBSS.pdb
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\obj\Debug\ClasesBSS.dll
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\obj\Debug\ClasesBSS.pdb
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\bin\Debug\ClasesDAL.dll
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\david\Desktop\WebApplication1\ClasesBSS\bin\Debug\ClasesDAL.pdb
+D:\Tesis Guido\WebPage\ClasesBSS\bin\Debug\ClasesBSS.dll
+D:\Tesis Guido\WebPage\ClasesBSS\bin\Debug\ClasesBSS.pdb
+D:\Tesis Guido\WebPage\ClasesBSS\obj\Debug\ClasesBSS.dll
+D:\Tesis Guido\WebPage\ClasesBSS\obj\Debug\ClasesBSS.pdb
+D:\Tesis Guido\WebPage\ClasesBSS\bin\Debug\ClasesDAL.dll
+D:\Tesis Guido\WebPage\ClasesBSS\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Tesis Guido\WebPage\ClasesBSS\bin\Debug\ClasesDAL.pdb
+D:\Tesis Guido\WebPage\ClasesBSS\obj\Debug\ClasesBSS.csprojResolveAssemblyReference.cache

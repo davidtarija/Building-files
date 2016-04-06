@@ -1,0 +1,9 @@
+C:\Users\david\Desktop\WebApplication1\ClasesDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\david\Desktop\WebApplication1\ClasesDAL\bin\Debug\ClasesDAL.dll
+C:\Users\david\Desktop\WebApplication1\ClasesDAL\bin\Debug\ClasesDAL.pdb
+C:\Users\david\Desktop\WebApplication1\ClasesDAL\obj\Debug\ClasesDAL.dll
+C:\Users\david\Desktop\WebApplication1\ClasesDAL\obj\Debug\ClasesDAL.pdb
+D:\Tesis Guido\WebPage\ClasesDAL\bin\Debug\ClasesDAL.dll
+D:\Tesis Guido\WebPage\ClasesDAL\bin\Debug\ClasesDAL.pdb
+D:\Tesis Guido\WebPage\ClasesDAL\obj\Debug\ClasesDAL.dll
+D:\Tesis Guido\WebPage\ClasesDAL\obj\Debug\ClasesDAL.pdb

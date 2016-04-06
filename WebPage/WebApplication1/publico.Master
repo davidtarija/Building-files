@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="publico.master.cs" Inherits="WebApplication.Escuela.Presentation.publico" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 192px;
+        }
+        .style3
+        {
+            width: 161px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+        
+            <table style="width: 100%;">
+                <tr>
+                    <td bgcolor="Blue" valign="top">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style1" bgcolor="#FFCC00" valign="top">
+                        <table style="width: 472%; height: 563px;">
+                            
+                            <tr>
+                                <td class="style3" valign="top" bgcolor="Yellow">
+                        <asp:Menu ID="Menu1" runat="server" Height="212px" Width="142px" Font-Size="Medium">
+                            <Items>
+                                <asp:MenuItem Text="INICIO" Value="INICIO" 
+                                    NavigateUrl="~/paginasPublico/inicioPublic.aspx"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/paginasPublico/logueoUsuario.aspx" 
+                                    Text="INICIAR SESION" Value="INICIAR SESION"></asp:MenuItem>
+                                <asp:MenuItem Text="LISTA DE PRODUCTOS" Value="LISTA DE PRODUCTOS" 
+                                    NavigateUrl="~/paginasPublico/listaproducto.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/paginasPublico/registrarVenta.aspx" Text="COMPRAS" 
+                                    Value="COMPRAS"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                                </td>
+                                <td bgcolor="Black">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <table style="width: 92%; height: 212px;" bgcolor="Black">
+                <tr>
+                    <td valign="top" bgcolor="#FFFFCC">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        
+    </form>
+</body>
+</html>
